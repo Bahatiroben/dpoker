@@ -4,4 +4,5 @@ build:
 run: build
 	./bin/amakarita
 
-test: go test ./...
+test: 
+	go test ./...
